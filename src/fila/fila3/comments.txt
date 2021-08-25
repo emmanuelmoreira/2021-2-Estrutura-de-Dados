@@ -1,0 +1,2 @@
+Melhorada a Lógica dos métodos isEmpty e isFull e ShowQueue
+Adicionado os métodos GetInicioFila e GetFimFila
