@@ -2,7 +2,7 @@ package pilha.pilha1;
 
 public class Main {
     public static void main(String[] args) {
-        Pilha pilha = new Pilha();
+        Pilha1 pilha = new Pilha1();
 
 
 

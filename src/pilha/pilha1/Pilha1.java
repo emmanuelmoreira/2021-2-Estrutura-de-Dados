@@ -12,12 +12,12 @@ ShowStack()
 
 
  */
-public class Pilha {
+public class Pilha1 {
     private int topo;
     private final int SIZE = 5;
     private Integer[] stack;
 
-        public Pilha() {
+        public Pilha1() {
             this.stack = new Integer[SIZE];
             this.topo = -1;
     }
