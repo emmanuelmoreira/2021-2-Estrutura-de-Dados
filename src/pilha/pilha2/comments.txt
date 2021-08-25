@@ -1,0 +1,11 @@
+Inserido os métodos para testar pilha vazia e cheia
+IsEmpty
+IsFull
+
+O que dá para melhorar ainda?
+
+01 - A lógica dos métodos IsEmpty e IsFull
+02 - Criar um método chamado peek, que mostra o elemento que
+está no topo da pilha.
+
+
