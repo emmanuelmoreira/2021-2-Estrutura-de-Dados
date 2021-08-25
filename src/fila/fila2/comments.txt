@@ -1,0 +1,4 @@
+Inserido os métodos para testar fila vazia e cheia
+IsEmpty
+IsFull
+
