@@ -1,0 +1,16 @@
+Problema: Se eu iniciar com pilha.pop() dará erro pois estou retirando
+um elemento de uma pilha vazia.
+
+Solução: Método para testar se a pilha está vazia.
+
+
+Problema: Se eu inserir mais elementos que posições existentes no
+array dará erro.
+pilha.Push(10);pilha.Push(20);pilha.Push(30);pilha.Push(40);pilha.Push(50);pilha.Push(60);
+
+Solução: Método para testar se a pilha está Cheia
+
+
+"Problema": Dá para melhorar a visualizção para ultimo elemento inserido
+aparecer mais em cima.
+
