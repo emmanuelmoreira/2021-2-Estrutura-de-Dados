@@ -1,0 +1,7 @@
+DEQUE - Double Ended Queue (Sequencial)
+Elementos da fila podem ser retirados nas duas extermidades(inicio e fim)
+
+deque.DequeueInicio(); => Não gera Erro, mas sim problemas de algoritmo.
+deque.DequeueFim();    => Gera Erro (this.queue[-1] = null
+
+solução: testar isEmpty e isfull.
