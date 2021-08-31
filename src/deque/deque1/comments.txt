@@ -1,7 +1,31 @@
 DEQUE - Double Ended Queue (Sequencial)
-Elementos da fila podem ser retirados nas duas extermidades(inicio e fim)
+- Elementos da fila podem ser retirados nas duas extermidades(inicio e fim)
+|============|
+| I = inicio |
+| F = Fim    |
+|============|
 
-deque.DequeueInicio(); => Não gera Erro, mas sim problemas de algoritmo.
-deque.DequeueFim();    => Gera Erro (this.queue[-1] = null
+|===============================================================|
+| Inserções deque fila: incrementa apenas o Final em cada inserção.|
+|===============================================================|
+|      I        I               I                               |
+|     [10] ==> [10] [20]  ==>  [10] [20] [30]                   |
+|      F              F                    F                    |
+|===============================================================|
+|Remoções deque: Tanto no inicio como no fim.  |
+|===============================================================|
+|=> Remoção no Inicio
+|     I                          I                          I   |
+|    [10] [20] [30] ==> [NULL] [20] [30] ==> [NULL] [NULL] [30] |
+|                F                    F                     F   |
+| => Remoção no fim                                             |
+|     I                  I                    I                 |
+|    [10] [20] [30] ==> [10] [20] [NULL] ==> [10] [NULL] [NULL] |
+|                F             F               F           F    |
+|===============================================================|
 
-solução: testar isEmpty e isfull.
+Se a primeira operação for:
+ - deque.DequeueInicio(); => Não gera Erro, mas sim problemas de algoritmo.
+ - deque.DequeueFim();    => Gera Erro (this.queue[-1] = null
+
+solução: implementar métodos isEmpty e isfull.
