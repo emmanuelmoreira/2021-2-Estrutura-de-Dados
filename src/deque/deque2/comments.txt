@@ -1,0 +1,4 @@
+Implementados os métodos isEmpty e isfull já otimizados;
+ShowQueue otimizado
+
+
