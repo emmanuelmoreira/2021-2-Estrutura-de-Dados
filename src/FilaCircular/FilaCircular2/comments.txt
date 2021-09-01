@@ -1,0 +1,4 @@
+Teste de fila cheia deve ser (tamanho == this.SIZE)
+pois cada vez que desenfileirar teremos decremento do tamanho, que será
+o ponto de controle da fila. Os exemplos anteriores o controle era feito por
+(fim == SIZE - 1).
