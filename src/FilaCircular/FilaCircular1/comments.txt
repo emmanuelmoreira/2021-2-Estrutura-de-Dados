@@ -1,0 +1,5 @@
+Problemas no algoritmo
+Continua inserindo mesmo estando cheia.
+Contagem de tamanho continua aumentando
+
+Solução: implementar métodos para testar se está cheia e vazia.
